@@ -4,5 +4,5 @@ This repository contains hands-on labs and projects demonstrating SOC analyst sk
 
 ## Labs & Projects
 
-1. **Network Recon Lab** – Detect and analyze port scanning using Nmap and Wireshark. See `01-Network-Recon/README.md`
+1. **Network Recon Lab** – Detect and analyze port scanning using Nmap and Wireshark. See `01-Network-Recon`
 
