@@ -1,0 +1,20 @@
+Lab: Network Recon – Linux → Windows VM
+
+Objective:
+- Detect and analyze reconnaissance activity (port scanning) from a Linux VM targeting a Windows VM.
+
+Tools:
+- Nmap (Linux VM)
+- Wireshark (Windows VM)
+
+Steps:
+1. Ran `nmap 192.168.56.102 from Linux VM.
+2. Captured incoming packets on Windows VM using Wireshark.
+3. Filtered TCP SYN packets: tcp.flags.syn == 1 && tcp.flags.ack == 0
+4. Observed network behavior.
+
+Observations:
+- Multiple TCP SYN packets sent to different ports.
+- Short intervals between packets.
+- Closed ports responded with RST; open ports may respond with SYN/ACK.
+- Pattern indicates reconnaissance / port scanning activity.
