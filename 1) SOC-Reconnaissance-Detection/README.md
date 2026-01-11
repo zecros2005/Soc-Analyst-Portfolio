@@ -50,7 +50,7 @@ The observed traffic behavior indicates internal network service scanning.
   - DNS traffic identification
   - TLS SNI evidence
   - SYN scan packet evidence
-- **Analysis Notes:** `notes/`
+- **Analysis Notes:** `Analysis Text/`
 
 ## Key Takeaways
 - Network-based detection can identify reconnaissance before host logs generate alerts
