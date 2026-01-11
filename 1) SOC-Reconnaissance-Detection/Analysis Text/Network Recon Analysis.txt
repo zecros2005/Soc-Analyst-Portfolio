@@ -1,0 +1,13 @@
+Analysis Summary – Network Reconnaissance Detection
+
+During this lab, network traffic was captured on a Windows VM to identify internal reconnaissance activity originating from a Linux VM.
+
+Baseline traffic was first established by monitoring normal web browsing activity using DNS and TLS metadata. Legitimate domains such as google.com and youtube.com were identified through DNS queries and TLS Server Name Indication (SNI). No anomalous behavior was observed during baseline analysis.
+
+Reconnaissance activity was simulated using an Nmap SYN scan targeting ports 1–1000 on the Windows VM. Network traffic was analyzed using Wireshark with the filter tcp.flags.syn == 1 && tcp.flags.ack == 0.
+
+Analysis revealed multiple SYN-only packets sent from the Linux VM to the Windows VM across sequential ports. No TCP handshake completion or payload transmission was observed. This traffic pattern is consistent with network service scanning and reconnaissance behavior.
+
+No corresponding failed authentication events were recorded in Windows Security logs, which is expected since SYN scans do not attempt authentication. Detection was therefore confirmed at the network level.
+
+This activity was mapped to MITRE ATT&CK technique T1046 (Network Service Scanning). The lab demonstrates how reconnaissance can be detected through network traffic analysis before host-based alerts are generated.
