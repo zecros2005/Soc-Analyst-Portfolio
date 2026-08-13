@@ -8,3 +8,7 @@ This repository contains hands-on labs and projects demonstrating SOC analyst sk
   Detect internal port-scanning activity using Wireshark and Nmap.  
   ➝ `1) SOC-Reconnaissance-Detection`
 
+   **02 – Wireshark Network Analysis**  
+  Network and PCAP Analysis with Wireshark using Wireshark features and advanced filtering  
+  ➝ `2) Wireshark`
+
