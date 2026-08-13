@@ -4,11 +4,7 @@ This repository contains hands-on labs and projects demonstrating SOC analyst sk
 
 ## Labs & Projects
 
- **01 – Network Reconnaissance Detection**  
-  Detect internal port-scanning activity using Wireshark and Nmap.  
-  ➝ `1) SOC-Reconnaissance-Detection`
-
-   **02 – Wireshark Network Analysis**  
+**01 – Wireshark Network Analysis**  
   Network and PCAP Analysis with Wireshark using Wireshark features and advanced filtering  
-  ➝ `2) Wireshark`
+  ➝ `1) Wireshark`
 
