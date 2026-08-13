@@ -42,3 +42,7 @@ Through these exercises and projects, I'm working on:
 | 🛡️ SOC Operations | Developing practical SOC analyst skills |
 
 ---
+
+## File Structure
+1) Windows Baseline
+2) Kali Reconnaissance
