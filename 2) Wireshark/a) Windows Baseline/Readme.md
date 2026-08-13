@@ -35,7 +35,6 @@ This baseline is the first part of a larger Wireshark network-forensics project.
 | Capture Host | Windows VM |
 | Capture Tool | Wireshark |
 | Traffic Type | Normal / legitimate user and OS activity |
-| PCAP | `01-Windows-Normal-Traffic.pcapng` |
 | Investigation Type | Network Baseline / Protocol Analysis |
 
 ---
